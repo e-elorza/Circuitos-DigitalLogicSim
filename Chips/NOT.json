@@ -15,7 +15,7 @@
   },
   "InputPins":[
     {
-      "Name":"IN",
+      "Name":"A",
       "ID":1713029417,
       "Position":{
         "x":-3.64815,
