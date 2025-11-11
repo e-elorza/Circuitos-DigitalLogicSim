@@ -1,9 +1,9 @@
 {
-  "ProjectName": "Projeto ARQ",
+  "ProjectName": "Circuitos-DigitalLogicSim",
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:09:28.045-03:00",
-  "LastSaveTime": "2025-10-28T21:17:54.161-03:00",
+  "LastSaveTime": "2025-11-11T15:18:49.850-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -21,7 +21,11 @@
     "XNOR",
     "FULL ADDER",
     "HALF ADDER",
-    "4-BIT ADDER"
+    "4-BIT ADDER",
+    "HALF SUBTRACTOR",
+    "3-AND",
+    "FULL SUBTRACTOR",
+    "3-OR"
   ],
   "StarredList":[
     {
@@ -34,6 +38,10 @@
     },
     {
       "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"3-GATES",
       "IsCollection":true
     },
     {
@@ -87,9 +95,14 @@
       "Name":"OTHER"
     },
     {
-      "Chips":["HALF ADDER","FULL ADDER","4-BIT ADDER"],
+      "Chips":["FULL SUBTRACTOR","HALF SUBTRACTOR","HALF ADDER","FULL ADDER","4-BIT ADDER"],
       "IsToggledOpen":true,
       "Name":"ComplexCircuits"
+    },
+    {
+      "Chips":["3-OR","3-AND"],
+      "IsToggledOpen":false,
+      "Name":"3-GATES"
     }
   ]
 }
