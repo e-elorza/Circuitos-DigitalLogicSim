@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:09:28.045-03:00",
-  "LastSaveTime": "2025-11-11T20:22:18.638-03:00",
+  "LastSaveTime": "2025-11-18T20:53:37.073-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -25,7 +25,11 @@
     "HALF SUBTRACTOR",
     "3-AND",
     "FULL SUBTRACTOR",
-    "3-OR"
+    "3-OR",
+    "4-BIT ADDER SCALE",
+    "IMCOMPLETO",
+    "1-BIT MUX",
+    "2-BIT-MUX"
   ],
   "StarredList":[
     {
@@ -51,6 +55,18 @@
     {
       "Name":"ComplexCircuits",
       "IsCollection":true
+    },
+    {
+      "Name":"4-BIT ADDER SCALE",
+      "IsCollection":false
+    },
+    {
+      "Name":"1-BIT MUX",
+      "IsCollection":false
+    },
+    {
+      "Name":"2-BIT-MUX",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -91,7 +107,7 @@
     },
     {
       "Chips":["BUZZER"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"OTHER"
     },
     {
