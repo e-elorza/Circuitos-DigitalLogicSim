@@ -14,6 +14,6 @@ Saídas: Fornece 2 saídas — a diferença (Diff) e o borrow out (B_out).<br>
 Explicação: O full subtractor é um circuito que realiza a subtração  de três bits. <br>
 
 2-BIT MUX:<br>
-Entradas: Um MUX de 2 bits recebe 4 entradas de dados (D0, D1, D2, D3), cada uma representando um possível valor que pode ser selecionado. Além disso, possui 2 entradas de seleção (S0 e S1), que determinam qual dos 4 dados será enviado para a saída.<br>
+Entradas: Um MUX de 2 bits recebe 4 entradas de dados (A, B, C, D), cada uma representando um possível valor que pode ser selecionado. Além disso, possui 2 entradas de seleção (C1 e C2), que determinam qual dos 4 dados será enviado para a saída.<br>
 Saída: Gera 1 saída, que corresponde exatamente ao valor da linha de entrada escolhida pelas entradas de seleção.<br>
-Explicação: O MUX de 2 bits funciona como um "seletor digital". Ele escolhe uma entre quatro entradas possíveis com base nos bits de seleção S1 e S0. Cada combinação de S1S0 (00, 01, 10, 11) aponta para uma das entradas D0 a D3, encaminhando somente essa entrada para a saída. É um componente fundamental em circuitos que precisam decidir entre múltiplos sinais usando poucos fios de controle.<br>
+Explicação: O MUX de 2 bits funciona como um seletor. Ele escolhe uma entre quatro entradas possíveis com base nos bits de seleção C1 e C2. Cada combinação de C1C2 (00, 01, 10, 11) aponta para uma das entradas "A" a "D", encaminhando somente essa entrada para a saída.<br>
