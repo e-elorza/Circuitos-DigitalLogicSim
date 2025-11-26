@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:09:28.045-03:00",
-  "LastSaveTime": "2025-11-18T20:53:37.073-03:00",
+  "LastSaveTime": "2025-11-25T21:57:17.190-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -28,8 +28,20 @@
     "3-OR",
     "4-BIT ADDER SCALE",
     "IMCOMPLETO",
-    "1-BIT MUX",
-    "2-BIT-MUX"
+    "1-BIT-MUX",
+    "4-OR",
+    "2-BIT-MUX",
+    "DEMUX-2BIT",
+    "DECODER",
+    "ULA",
+    "AND-4BIT",
+    "DEMUX-2CBIT-4DBIT",
+    "4BIT-OR",
+    "MUX-4BIT",
+    "4BIT-SUBTRACTOR",
+    "MUX-3CONTROL-8BIT",
+    "DEMUX-3CONTROL-8BIT",
+    "4BIT-XOR"
   ],
   "StarredList":[
     {
@@ -49,6 +61,10 @@
       "IsCollection":true
     },
     {
+      "Name":"4-GATES",
+      "IsCollection":true
+    },
+    {
       "Name":"Básicas",
       "IsCollection":true
     },
@@ -57,15 +73,39 @@
       "IsCollection":true
     },
     {
-      "Name":"4-BIT ADDER SCALE",
+      "Name":"4BIT-GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"MUX's",
+      "IsCollection":true
+    },
+    {
+      "Name":"DEMUX's",
+      "IsCollection":true
+    },
+    {
+      "Name":"ULA",
       "IsCollection":false
     },
     {
-      "Name":"1-BIT MUX",
+      "Name":"DECODER",
       "IsCollection":false
     },
     {
-      "Name":"2-BIT-MUX",
+      "Name":"4BIT-SUBTRACTOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX-3CONTROL-8BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX-3CONTROL-8BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"4BIT-XOR",
       "IsCollection":false
     }
   ],
@@ -106,19 +146,39 @@
       "Name":"Básicas"
     },
     {
-      "Chips":["BUZZER"],
-      "IsToggledOpen":false,
+      "Chips":["BUZZER","IMCOMPLETO","DECODER","ULA","4BIT-SUBTRACTOR"],
+      "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
-      "Chips":["FULL SUBTRACTOR","HALF SUBTRACTOR","HALF ADDER","FULL ADDER","4-BIT ADDER"],
-      "IsToggledOpen":true,
+      "Chips":["FULL SUBTRACTOR","HALF SUBTRACTOR","HALF ADDER","FULL ADDER","4-BIT ADDER","4-BIT ADDER SCALE"],
+      "IsToggledOpen":false,
       "Name":"ComplexCircuits"
     },
     {
       "Chips":["3-OR","3-AND"],
       "IsToggledOpen":false,
       "Name":"3-GATES"
+    },
+    {
+      "Chips":["MUX-4BIT","1-BIT-MUX","2-BIT-MUX"],
+      "IsToggledOpen":false,
+      "Name":"MUX's"
+    },
+    {
+      "Chips":["4-OR"],
+      "IsToggledOpen":true,
+      "Name":"4-GATES"
+    },
+    {
+      "Chips":["4BIT-OR","AND-4BIT"],
+      "IsToggledOpen":false,
+      "Name":"4BIT-GATES"
+    },
+    {
+      "Chips":["DEMUX-2BIT","DEMUX-2CBIT-4DBIT"],
+      "IsToggledOpen":false,
+      "Name":"DEMUX's"
     }
   ]
 }
